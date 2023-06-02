@@ -829,7 +829,12 @@ ol {
 
 }
 
+.model-close:hover,
+.model-close:focus{
+    background-color: var(--header-link-hf);
+    border: none;
 
+}
 
 
 
