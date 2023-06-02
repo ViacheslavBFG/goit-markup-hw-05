@@ -532,6 +532,10 @@ ol {
 
 }
 
+.portfolio-programm-item:focus {
+    transform: translateY(0);
+}
+
 
 
 .box-name-portfolio {
