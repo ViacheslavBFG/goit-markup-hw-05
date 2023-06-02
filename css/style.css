@@ -38,6 +38,7 @@ img {
 }
 
 
+
 .header-link {
 
     font-weight: 500;
@@ -47,6 +48,8 @@ img {
     color: var(--portfolio-header-color);
     padding: 24px 0;
     display: block;
+    position: relative;
+    color: #404bbf;
 
 }
 
