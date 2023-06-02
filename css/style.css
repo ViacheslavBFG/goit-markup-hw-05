@@ -532,7 +532,7 @@ ol {
 
 }
 
-.portfolio-programm-item:focus {
+.portfolio-programm-item:focus .portfolio-color-text {
     transform: translateY(0);
 }
 
