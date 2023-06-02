@@ -49,9 +49,26 @@ img {
     padding: 24px 0;
     display: block;
     position: relative;
-    color: #404bbf;
+ 
 
 }
+
+.current-page:after{
+    color: #404bbf;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    border-radius: 2px;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+}
+
+
+
+
 
 .header-link:hover,
 .header-link:focus {
