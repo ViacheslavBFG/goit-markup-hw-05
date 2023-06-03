@@ -394,7 +394,11 @@ img {
 }
 
 
+.portfolio-link:focus .portfolio-color-text {
+    transform: translate(0, 0);
 
+
+}
 
 
 
