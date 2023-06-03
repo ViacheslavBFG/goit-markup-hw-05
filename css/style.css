@@ -203,7 +203,7 @@ img {
     border-radius: 4px;
     margin: auto;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -390,6 +390,7 @@ img {
 .portfolio-link:focus {
 
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%)
 }
 
 
@@ -559,9 +560,18 @@ ol {
     margin: -1px;
 }
 
-.portfolio-hidden {
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 
-    visibility: hidden;
 
 }
 
@@ -602,7 +612,7 @@ ol {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
@@ -720,7 +730,7 @@ ol {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -840,7 +850,7 @@ ol {
 }
 
 .model-close:hover,
-.model-close:focus{
+.model-close:focus {
     background-color: var(--header-link-hf);
     border: none;
 
